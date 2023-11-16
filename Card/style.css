@@ -5,6 +5,12 @@ div {
     text-align: center;
     padding: 80px;
     margin: 15px;
+    
+}
+
+body {
+    border: solid 1px grey;
+    border-radius: 5px;
 }
 
 h2,
