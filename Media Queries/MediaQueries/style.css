@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.contenuto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 90px;
+}
+
+.container {
+    display: flex;
+    width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.box {
+    display: flex;
+    justify-self: space-between;
+    width: 300px;
+    height: 350px;
+    background: linear-gradient(#b2b2b2, #efefef);
+    margin-left: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.cat {
+    display: flex;
+    width: 300px;
+}
+
+.sphere {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+
+}
+
+header {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 10px;
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: 1fr 4fr 1fr;
+    align-items: center;
+}
+
+.cuore {
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    margin-left: 10px;
+}
+
+.menù {
+    display: grid;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.messaggi {
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    margin-left: 10px;
+}
+
+.icon {
+    display: flex;
+}
+
+.data {
+    color: white;
+    font-size: smaller;
+    display: flex;
+}
+
+.dots {
+    width: 25px;
+    height: 25px;
+}
+
+p {
+    font-size: smaller;
+}
+
+h3 {
+    font-size: medium;
+    display: flex;
+}
+
+@media screen and (max-width:768px) {
+    .contenuto {
+        flex-direction: column;
+        justify-content: center;
+        max-width: 640px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .contenuto {
+        flex-direction: column;
+        justify-content: center;
+        max-width: 100%;
+    }
+}
