@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+        <form>
+            <div>
+                <label>First Name:</label>
+                <input type="text" class="form-input" id="firstName" value="Mario" />
+            </div>
+            <div>
+                <label>Last Name:</label>
+                <input type="text" class="form-input" id="lastName" value="Rossi" />
+            </div>
+            <div>
+                <label>Age:</label>
+                <input type="number" class="form-input" id="age" value="25" />
+            </div>
+        </form>
+    </div>
+
+    <script>
+        
+        let firstName = document.getElementById('firstName').value;
+        let lastName = document.getElementById('lastName').value;
+        let age = document.getElementById('age').value;
+
+
+        let person = {
+            firstName: firstName,
+            lastName: lastName,
+            age: age
+        };
+
+    
+        var formElement = document.querySelector('form');
+
+    // non riesco a capire come inserire l'oggetto person in formato JSON ?? all'interno dell'attributo data-person
+        formElement.setAttribute('data-person');
+    </script>
+</body>
+cr
+</html>
