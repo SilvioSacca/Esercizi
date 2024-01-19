@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il metodo Fetch</title>
+</head>
+<body>
+    <h1></h1>
+    <img src="" alt="">
+    <script>
+    fetch("https://ringsdb.com/api/public/card/01001")
+        .then(response => {
+            const jsonResponse = response.json();
+            return jsonResponse
+        })
+        .then(values => {   // ricordare che "values" è un'oggetto in questo caso
+            const image = document.querySelector("img");
+            const nome = document.querySelector("h1");
+            nome.innerText = values.name
+            image.src = "https://ringsdb.com" + values.imagesrc
+        });
+    </script>
+</body>
+</html>
