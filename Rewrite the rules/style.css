@@ -1,0 +1,12 @@
+@import url("features.css");
+
+body {
+    background-color: var(--black);
+}
+
+.ball {
+    width: var(--ballW);
+    height: var(--ballH);
+    background-color: var(--orange);
+    border-radius: var(--ballradius);
+}

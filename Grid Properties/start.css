@@ -1,0 +1,28 @@
+@import url("style.css");
+
+#green {
+    grid-area: header;
+    background-color: rgb(177, 245, 204);
+}
+
+#yellow {
+    display: grid;
+    grid-area: main;
+    background-color: rgb(251, 251, 174);
+}
+
+#orange {
+    grid-area: footer;
+    background-color: rgb(253, 217, 151);
+}
+
+#red {
+    grid-area: article;
+    background-color: rgb(253, 181, 181);
+    display: grid;
+}
+
+#blue {
+    grid-area: sidebar;
+    background-color: rgb(158, 220, 251);
+}

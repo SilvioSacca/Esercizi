@@ -1,0 +1,36 @@
+#green {
+    background-color: rgb(151, 223, 180);
+}
+
+#yellow {
+    background-color: rgb(249, 249, 128);
+}
+
+#orange {
+    background-color: rgb(255, 205, 112);
+}
+
+#red {
+    background-color: rgb(255, 161, 161);
+}
+
+#blue {
+    background-color: rgb(123, 203, 243);
+}
+
+
+ul {
+    list-style: none;
+}
+
+li {
+    background: white;
+    width: 50px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+ 
+

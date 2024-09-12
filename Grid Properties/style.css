@@ -1,0 +1,37 @@
+.container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-areas:
+        "header header header"
+        "main article sidebar"
+        "main article sidebar"
+        "footer footer sidebar";
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.main {
+    padding: 15px;
+    margin-left: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5px;
+}
+
+
+li {
+    display: grid;
+    background: #fff;
+    margin: 10px;
+    width: 45px;
+    height: 20px;
+    padding: 8px;
+}

@@ -1,0 +1,7 @@
+:root {
+    --black: rgb(27, 27, 27);
+    --orange: rgb(255, 140, 0);
+    --ballW: 110px;
+    --ballH: 110PX;
+    --ballradius: 60px;
+}

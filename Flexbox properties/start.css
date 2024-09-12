@@ -1,0 +1,49 @@
+@import url(style.css);
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.item1 {
+    padding-left: 40px;
+    padding-top: 40px;
+    width: 200px;
+    height: 550px;
+    
+}
+
+.item2 {
+    padding-left: 40px;
+    padding-top: 40px;
+    width: 200px;
+    height: 550px;
+    
+}
+
+.item3 {
+    padding-left: 40px;
+    padding-top: 40px;
+    width: 150px;
+    height: 550px;
+    
+}
+
+.item4 {
+    padding-left: 40px;
+    padding-top: 40px;
+    width: 340px;
+    height: 550px;
+    
+}
+
+.item5 {
+    padding-left: 40px;
+    padding-top: 40px;
+    width: 120px;
+    height: 550px;
+}
+

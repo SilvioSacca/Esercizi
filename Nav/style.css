@@ -1,0 +1,45 @@
+nav {
+    background-color: #333;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    width: 610px;
+}
+
+
+input[type="submit"]:hover {
+    background-color: green;
+    color: white;
+}
+
+.input0 {
+    margin-left: 50px;
+}
+
+.input1 {
+    color: green;
+}
+
+.Home {
+    color:white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.Link {
+color:rgb(189, 189, 189);
+text-decoration: none;
+margin-left: 10px;
+}
+
+#Dropdown {
+    color: rgb(189, 189, 189);
+    background-color: #333;
+    border:#333;
+}
+
+button {
+    background-color: #333;
+    color: grey;
+    border: #333;
+}
